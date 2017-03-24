@@ -1,35 +1,270 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Siyuan Qi @ UCLA</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="img/Q.jpg"/>
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="css/bootflat.css">-->
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/scrolling-nav.css">
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <div class="col-lg-9">
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand page-scroll" href="#page-top">Siyuan Qi</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                            <li class="hidden">
+                                <a class="page-scroll" href="#page-top"></a>
+                            </li>
+                            <!--<li>-->
+                                <!--<a class="page-scroll" href="#intro">Home</a>-->
+                            <!--</li>-->
+                            <li>
+                                <a class="page-scroll" href="#about">About</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#news">News</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#publications">Publications</a>
+                            </li>
+                            <!--<li>
+                                <a class="page-scroll" href="#contact">Contact</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+
+
+                <div class="col-lg-3">
+                    <ul class="top-contact-info">
+                        <li><a href="mailto:syqi@cs.ucla.edu" target="_self"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/siyuanqi" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/SiyuanQi" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://soundcloud.com/siyuanqi" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Intro Section -->
+        <section id="intro" class="intro-section">
+            <div class="intro-profile">
+                <div class="intro-avatar">
+                    <div class="section-title">
+                        <img class="img-circle" src="img/avatar.jpg" alt="" height="150">
+                    </div>
+                </div>
+                <div class="intro-info">
+                    <div class="section-title">
+                        <h3>Siyuan Qi</h3>
+                        <h5>PhD Student @ UCLA CS</h5>
+                    </div>
+                    <!-- <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <div class="section-title"><h3>About Me</h3></div>
+                        <p>I am a second year Ph.D. student in the <a href="http://www.cs.ucla.edu/">Computer Science
+                            Department</a> at <a href="http://www.ucla.edu/">University of California, Los Angeles</a>. I am
+                            currently doing computer vision research in the <a href="http://vcla.stat.ucla.edu/"
+                                                                               target="_blank">Center for Vision, Cognition,
+                                Learning, and Autonomy</a> advised by <a href="http://www.stat.ucla.edu/~sczhu/"
+                                                                         target="_blank">Professor Song-Chun Zhu</a>.</p>
+
+                        <p>My research interests include Computer Vision, Artificial Intelligence, and Machine Learning.</p>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="news-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <div class="section-title"><h1>News</h1></div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <ul class="section-ul">
+                            <!-- VR2017 -->
+                            <li>
+                                <div class="col-lg-2"><div class="date">2016-11</div></div>
+                                <div class="col-lg-10">
+                                    <div class="content">
+                                        <h4><a href="http://www.ieeevr.org/2017/">IEEE Virtual Reality 2017</a></h4>
+                                        <p><b>[oral]</b> The Martian: Examining Human Physical Judgments Across Virtual Gravity Fields.</p>
+                                        <p>Conditional accepted to TVCG</p>
+                                        <p>[<a href="#publication-vr2017" class="page-scroll">paper</a>][<a href="#project-vr2017" class="page-scroll">project</a>][<a href="#">demo</a>] coming soon</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <div class="section-title"><h1>Projects</h1></div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <ul class="section-ul">
+                            <!-- VR2017 -->
+                            <!--<div id="project-vr2017" class="anchor"></div>-->
+                            <!--<li>-->
+                            <!--<div class="col-lg-3"><div class="date">2016-11</div></div>-->
+                            <!--<div class="col-lg-9">-->
+                            <!--<div class="content">-->
+                            <!--<h4><a href="http://www.ieeevr.org/2017/">IEEE Virtual Reality 2017</a></h4>-->
+                            <!--<p><b>[oral]</b> The Martian: Examining Human Physical Judgments Across Virtual Gravity Fields.</p>-->
+                            <!--<p>[<a href="#">paper</a>][<a href="#">demo</a>][<a href="#">project</a>] coming soon</p>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--</li>-->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="publications-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <div class="section-title"><h1>Publications</h1></div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <ul class="section-ul">
+                            <!-- VR2017 -->
+                            <!--<div id="publication-vr2017" class="anchor"></div>-->
+                            <!--<li>-->
+                            <!--<div class="col-lg-3"><div class="date">2016-11</div></div>-->
+                            <!--<div class="col-lg-9">-->
+                            <!--<div class="content">-->
+                            <!--<h4><a href="http://www.ieeevr.org/2017/">IEEE Virtual Reality 2017</a></h4>-->
+                            <!--<p><b>[oral]</b> The Martian: Examining Human Physical Judgments Across Virtual Gravity Fields.</p>-->
+                            <!--<p>[<a href="#">paper</a>][<a href="#">demo</a>][<a href="#">project</a>] coming soon</p>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                            <!--</li>-->
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <!--     <section id="contact" class="contact-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-10">
+                            <h1>Contact</h1>
+                        </div>
+                        <div class="col-lg-1"></div>
+                    </div>
+                </div>
+            </section> -->
+
+
+        <!-------------------- JavaScript and Google Analytics -------------------->
         <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <!-- Scrolling Nav JavaScript -->
+        <script src="js/vendor/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+
+        <!-- Bootflat's JS files.-->
+        <script src="js/vendor/bootflat/icheck.min.js"></script>
+        <script src="js/vendor/bootflat/jquery.fs.selecter.min.js"></script>
+        <script src="js/vendor/bootflat/jquery.fs.stepper.min.js"></script>
+
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+            if (window.location.host==="www.cs.ucla.edu" || window.location.host==="web.cs.ucla.edu" || window.location.host==="cs.ucla.edu") {
+                window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+                ga('create','UA-83051006-1','auto');ga('send','pageview')
+            }
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>

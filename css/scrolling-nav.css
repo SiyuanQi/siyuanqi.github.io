@@ -1,0 +1,155 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 50%;
+    text-align: left;
+    background: url("../img/UCLA.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.about-section {
+    height: 50%;
+    padding-top: 200px;
+    text-align: left;
+    background: #ddd;
+}
+
+.news-section {
+    height: 55%;
+    padding-top: 150px;
+    text-align: left;
+    background: #fff;
+}
+
+.projects-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #ddd;
+}
+
+.publications-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #ddd;
+}
+
+/* Styles */
+/******************** For All Sections ********************/
+.section-title {
+    text-align: center;
+}
+
+.section-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.anchor {
+    display: block;
+    height: 100px; /*same height as header*/
+    margin-top: -100px; /*same height as header*/
+    visibility: hidden;
+}
+
+
+/******************** Top Bar Contact Information ********************/
+.top-contact-info {
+    padding-top: 13px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.top-contact-info li {
+    display:inline;
+}
+
+.top-contact-info li a {
+    display: inline-block;
+    width: 40px;
+    color: #aaa;
+    font-size: 19px;
+}
+
+.top-contact-info li a:hover {
+    display: inline-block;
+    width: 40px;
+    color: #000;
+    font-size: 19px;
+}
+
+/******************** News Section ********************/
+.date {
+    /*padding-top: 10px;*/
+    font-size: x-large;
+    width: 100px;
+    text-align: center;
+    /*background: #2791d4;*/
+    background: #dddddd;
+}
+
+/******************** Intro Section ********************/
+.intro-container {
+    height: 50%;
+}
+
+.intro-profile {
+    position: relative;
+    width: 100%;
+    top: calc(100% - 75px);
+}
+
+.intro-avatar {
+    width: 100%;
+}
+
+.intro-info {
+    width: 100%;
+}
+
+.img-circle {
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+/******************** Projects Section ********************/
+
+
+/******************** Publications Section ********************/
