@@ -39,35 +39,36 @@ of those sections to manage the look and feel of the site. */
     height: 50%;
     padding-top: 200px;
     text-align: left;
-    background: #ddd;
+    background: #fff;
 }
 
 .news-section {
-    height: 55%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 100px;
     text-align: left;
-    background: #fff;
+    background: #ddd;
+    padding-bottom: 100px;
 }
 
 .projects-section {
     height: 100%;
-    padding-top: 150px;
-    text-align: left;
-    background: #ddd;
-}
-
-.publications-section {
-    height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: left;
     background: #fff;
 }
 
-.contact-section {
+.publications-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: left;
     background: #ddd;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: left;
+    background: #fff;
 }
 
 /* Styles */
@@ -76,11 +77,11 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 }
 
-.section-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+/*.section-ul {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*list-style: none;*/
+/*}*/
 
 .anchor {
     display: block;
