@@ -37,15 +37,16 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-    height: 50%;
+    height: auto;
     padding-top: 200px;
     text-align: left;
     background: #fff;
+    padding-bottom: 5%;
 }
 
 .news-section {
     height: auto;
-    padding-top: 100px;
+    padding-top: 5%;
     text-align: left;
     background: #ddd;
     padding-bottom: 5%;
@@ -53,24 +54,26 @@ of those sections to manage the look and feel of the site. */
 
 .projects-section {
     height: auto;
-    padding-top: 100px;
+    padding-top: 5%;
     text-align: left;
     background: #eee;
     padding-bottom: 5%;
 }
 
 .publications-section {
-    height: 100%;
-    padding-top: 100px;
+    height: auto;
+    padding-top: 5%;
     text-align: left;
     background: #ddd;
+    padding-bottom: 5%;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 100px;
+.more-section {
+    height: auto;
+    padding-top: 5%;
     text-align: left;
-    background: #fff;
+    background: #eee;
+    padding-bottom: 5%;
 }
 
 /* Styles */

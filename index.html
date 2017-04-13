@@ -65,9 +65,9 @@
                             <li>
                                 <a class="page-scroll" href="#publications">Publications</a>
                             </li>
-                            <!--<li>
-                                <a class="page-scroll" href="#contact">Contact</a>
-                            </li> -->
+                            <li>
+                                <a class="page-scroll" href="#more">More</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -325,7 +325,7 @@
                             <!--<div class="panel-heading">-->
                             <!--<h3 class="panel-title">2016</h3>-->
                             <!--</div>-->
-                            <div class="panel-body" data-toggle="collapse" href="#abstract-scenesynthesis17arxiv" style="cursor: pointer">
+                            <div class="panel-body" data-toggle="collapse" href="#pub-abstract-scenesynthesis17arxiv" style="cursor: pointer">
                                 <ul class="media-list">
                                     <li class="media">
                                         <a class="pull-left" target="_blank" href=""><img
@@ -343,7 +343,7 @@
                                     </li>
 
                                     <li>
-                                        <div align="justify" id="abstract-scenesynthesis17arxiv" class="panel-collapse collapse">
+                                        <div align="justify" id="pub-abstract-scenesynthesis17arxiv" class="panel-collapse collapse">
                                             <hr>
                                             <h5>Abstract</h5>
                                             We propose the configurable rendering of massive quantities of photorealistic images with ground truth for the purposes of training, benchmarking, and diagnosing computer vision models. In contrast to the conventional (crowd-sourced) manual labeling of ground truth for a relatively modest number of RGB-D images captured by Kinect-like sensors, we devise a non-trivial configurable pipeline of algorithms capable of generating a potentially infinite variety of indoor scenes using a stochastic grammar, specifically, one represented by an attributed spatial And-Or graph. We employ physics-based rendering to synthesize photorealistic RGB images while automatically synthesizing detailed, per-pixel ground truth data, including visible surface depth and normal, object identity and material information, as well as illumination. Our pipeline is configurable inasmuch as it enables the precise customization and control of important attributes of the generated scenes. We demonstrate that our generated scenes achieve a performance similar to the NYU v2 Dataset on pre-trained deep learning models. By modifying pipeline components in a controllable manner, we furthermore provide diagnostics on common scene understanding tasks; eg., depth and surface normal prediction, semantic segmentation, etc.
@@ -379,7 +379,7 @@
                             <!--<div class="panel-heading">-->
                                 <!--<h3 class="panel-title">2016</h3>-->
                             <!--</div>-->
-                            <div class="panel-body" data-toggle="collapse" href="#abstract-gravity16tvcg" style="cursor: pointer">
+                            <div class="panel-body" data-toggle="collapse" href="#pub-abstract-gravity16tvcg" style="cursor: pointer">
                                 <ul class="media-list">
                                     <li class="media">
                                         <a class="pull-left" target="_blank" href=""><img
@@ -400,7 +400,7 @@
                                     </li>
 
                                     <li>
-                                        <div align="justify" id="abstract-gravity16tvcg" class="panel-collapse collapse">
+                                        <div align="justify" id="pub-abstract-gravity16tvcg" class="panel-collapse collapse">
                                             <hr>
                                             <h5>Abstract</h5>
                                             This paper examines how humans adapt to novel physical situations with unknown gravitational acceleration in immersive virtual environments. We designed four virtual reality experiments with different tasks for participants to complete: strike a ball to hit a target, trigger a ball to hit a target, predict the landing location of a projectile, and estimate the flight duration of a projectile. The first two experiments compared human behavior in the virtual environment with real-world performance reported in the literature. The last two experiments aimed to test the human ability to adapt to novel gravity fields by measuring their performance in trajectory prediction and time estimation tasks. The experiment results show that: 1) based on brief observation of a projectile's initial trajectory, humans are accurate at predicting the landing location even under novel gravity fields, and 2) humans' time estimation in a familiar earth environment fluctuates around the ground truth flight duration, although the time estimation in unknown gravity fields indicates a bias toward earth's gravity.</div>
@@ -437,20 +437,97 @@
         </section>
 
         <!-- Contact Section -->
-        <!--     <section id="contact" class="contact-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-10">
-                            <h2>Contact</h2>
-                        </div>
-                        <div class="col-lg-1"></div>
-                    </div>
-                </div>
-            </section> -->
+        <section id="more" class="more-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <div class="section-title"><h2>More</h2></div>
+                        <hr>
 
-        <div class="footer-copyright text-center">
-            Copyright 2017 Siyuan Qi
+                        <div class="panel">
+                            <ul id="more-tab" class="nav nav-tabs nav-justified">
+                                <li class="active dropdown">
+                                    <a href="#" id="more-tab-col-drop" class="dropdown-toggle" data-toggle="dropdown" style="cursor: pointer">Collaborators <b class="caret"></b></a>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="more-tab-col-drop">
+                                        <li><a href="#more-col-vcla" tabindex="-1" data-toggle="tab">VCLA</a></li>
+                                        <li><a href="#more-col-cross" tabindex="-1" data-toggle="tab">Cross-lab</a></li>
+                                    </ul>
+                                </li>
+                                <!--<li><a href="#more-cv" data-toggle="tab">Curriculum Vitae</a></li>-->
+                                <li><a href="#more-awards" data-toggle="tab">Awards</a></li>
+                            </ul>
+                            <div id="more-tab-content" class="tab-content">
+                                <div class="tab-pane fade" id="more-col-vcla">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <a target="_blank" href="http://www.yzhu.io/index.html">Yixin Zhu</a> and
+                                            <a target="_blank" href="https://thusiyuan.github.io/">Siyuan Huang</a> on Scene Generation and Synthesis.
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_blank" href="http://www.stat.ucla.edu/~pwei/">Ping Wei</a> on Human Activity Understanding.
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_blank" href="http://www.mjedmonds.com/">Mark Edmonds</a> and
+                                            <a target="_blank" href="https://fen9.github.io/">Feng Gao</a> on Robot Learning.
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_blank" href="http://jlin.crevado.com/">Jenny Lin</a>,
+                                            <a target="_blank" href="https://xwguo.github.io/">Xingwen Guo</a> and Ye Tian on Virtual Reality.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade active in" id="more-col-cross">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <a target="_blank" href="http://web.cs.ucla.edu/~cffjiang/index.html">Dr. Chenfanfu Jiang</a> and
+                                            <a target="_blank" href="http://web.cs.ucla.edu/~dt/">Prof. Demetri Terzopoulos</a> at
+                                            <a target="_blank" href="http://www.magix.ucla.edu/">UCLA Computer Graphics & Vision Laboratory</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            Dr. Sara Spotorno,
+                                            <a target="_blank" href="https://sites.google.com/site/skytianxu/">Tian Xu</a> and
+                                            <a target="_blank" href="http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/staff/philippeschyns/">Prof. Philippe Schyns</a> at
+                                            <a target="_blank" href="http://www.ccni.gla.ac.uk/">University of Glasgow, Centre for Cognitive Neuroimaging</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_blank" href="http://reasoninglab.psych.ucla.edu/Labbies/JamesKubricht.html">James Kubricht</a> and
+                                            <a target="_blank" href="http://cvl.psych.ucla.edu/people.htm">Prof. Hongjing Lu</a> at
+                                            <a target="_blank" href="http://cvl.psych.ucla.edu/">UCLA Computational Vision and Learning Lab (CVL)</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_blank" href="http://www.stat.ucla.edu/~ybzhao/">Dr. Yibiao Zhao</a> at
+                                            <a target="_blank" href="http://cocosci.mit.edu/">MIT Computational Cognitive Science Group (cocosci)</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a target="_blank" href="http://www.cs.umb.edu/~craigyu/">Lap-Fai (Craig) Yu</a> at University of Massachusetts Boston, Graphics and Virtual Environments Lab
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--<div class="tab-pane fade" id="more-cv">-->
+                                <!--</div>-->
+                                <div class="tab-pane fade" id="more-awards">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">First Class Honors, Faculty of Engineering, University of Hong Kong <div class="pull-right">2013</div></li>
+                                        <li class="list-group-item">Undergraduate Research Fellowship, University of Hong Kong <div class="pull-right">2012</div></li>
+                                        <li class="list-group-item">Kingboard Scholarship, University of Hong Kong <div class="pull-right">2010 & 2011 & 2012</div></li>
+                                        <li class="list-group-item">Dean's Honors List, University of Hong Kong <div class="pull-right">2010 & 2011</div></li>
+                                        <li class="list-group-item">AI Challenge (Sponsored by Google), 2nd place in Chinese contestants, 74th worldwide <div class="pull-right">2011</div></li>
+                                        <li class="list-group-item">Student Ambassador, University of Hong Kong <div class="pull-right">2010</div></li>
+                                        <li class="list-group-item">University Entrance Scholarship, University of Hong Kong <div class="pull-right">2010</div></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer text-center">
+            <div class="footer-copyright text-center">Copyright &copy; 2017 Siyuan Qi</div>
         </div>
 
 
