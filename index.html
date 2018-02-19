@@ -147,6 +147,27 @@
                             <dl>
                                 <dt data-toggle="collapse" href="#news-2018" style="cursor: pointer">2018</dt>
                                 <div id="news-2018" class="panel-collapse collapse in">
+                                    <dd class="pos-right clearfix">
+                                        <div class="circ"></div>
+                                        <div class="time">2018 Feb</div>
+                                        <div class="events">
+                                            <div class="pull-left">
+                                                <p class="events-object img-rounded"><i class="fa fa-file fa-lg"></i></p>
+                                            </div>
+                                            <div class="events-body">
+                                                <h4 class="events-heading">One paper accepted at <a target="_blank" href="http://cvpr2018.thecvf.com/">CVPR 2018</a></h4>
+                                                <p>Human-centric Indoor Scene Synthesis Using Stochastic Grammar.</p>
+                                                <p>
+                                                    [<a target="_blank" href="publications/cvpr2018synthesis/cvpr2018synthesis.pdf">paper</a>]
+                                                </p>
+                                                <p>
+                                                    <span class="label label-primary">Conference</span>&nbsp;
+                                                    <span class="label label-normal">Computer Vision</span>&nbsp;
+                                                    <span class="label label-normal">Computer Graphics</span>&nbsp;
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </dd>
                                     <dd class="pos-left clearfix">
                                         <div class="circ"></div>
                                         <div class="time">2018 Jan</div>
@@ -361,6 +382,69 @@
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
+
+                        <!--------------- Human-centric Indoor Scene Synthesis --------------->
+                        <div class="panel panel-default">
+                            <!--<div class="panel-heading">-->
+                            <!--<h3 class="panel-title">2016</h3>-->
+                            <!--</div>-->
+                            <div class="panel-body" data-toggle="collapse" href="#pub-abstract-cvpr2018synthesis" style="cursor: pointer">
+                                <ul class="media-list">
+                                    <li class="media">
+                                        <a class="pull-left" target="_blank" href=""><img
+                                            class="events-object img-thumbnail img-rounded"
+                                            src="publications/thumbnails/cvpr2018synthesis.gif" width="150" height="150"></a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Human-centric Indoor Scene Synthesis Using Stochastic Grammar</h4>
+                                            <p><b>Siyuan Qi</b>, Yixin Zhu, Siyuan Huang, Chenfanfu Jiang, Song-Chun Zhu.</p>
+                                            <p>CVPR 2018, Salt Lake City, USA</p>
+
+                                            <span class="label label-primary">Conference</span>&nbsp;
+                                            <span class="label label-normal">Computer Vision</span>&nbsp;
+                                            <span class="label label-normal">Computer Graphics</span>&nbsp;
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div align="justify" id="pub-abstract-cvpr2018synthesis" class="panel-collapse collapse">
+                                            <hr>
+                                            <h5>Abstract</h5>
+                                            We present a human-centric method to sample and synthesize 3D room layouts and 2D images thereof, for the purpose of obtaining large-scale 2D/3D image data with the perfect per-pixel ground truth.
+                                            An attributed spatial And-Or graph (S-AOG) is proposed to represent indoor scenes. The S-AOG is a probabilistic grammar model, in which the terminal nodes are object entities including room, furniture, and supported objects. Human contexts as contextual relations are encoded by Markov Random Fields (MRF) on the terminal nodes.
+                                            We learn the distributions from an indoor scene dataset and sample new layouts using Monte Carlo Markov Chain.
+                                            Experiments demonstrate that the proposed method can robustly sample a large variety of realistic room layouts based on three criteria: (i) visual realism comparing to a state-of-the-art room arrangement method, (ii) accuracy of the affordance maps with respect to ground-truth, and (ii) the functionality and naturalness of synthesized rooms evaluated by human subjects..
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <ul class="list-group">
+                                <li class="list-group-item">&nbsp;
+                                    <span class="pull-right">
+                                        <a target="_blank" data-toggle="collapse"
+                                           title="bibtex" href="#pub-bibtex-cvpr2018synthesis">
+                                            <i class="fa fa-pencil fa-lg"></i>
+                                        </a>&nbsp;&nbsp;
+
+                                        <a target="_blank" data-toggle="tooltip"
+                                           title="Paper" href="publications/cvpr2018synthesis/cvpr2018synthesis.pdf">
+                                            <i class="fa fa-file-pdf-o fa-lg"></i>
+                                        </a>&nbsp;&nbsp
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <div align="justify" id="pub-bibtex-cvpr2018synthesis" class="panel-collapse collapse">
+<pre>
+@inproceedings{qi2018human,
+    title={Human-centric Indoor Scene Synthesis Using Stochastic Grammar},
+    author={Qi, Siyuan and Zhu, Yixin and Huang, Siyuan and Jiang, Chenfanfu and Zhu, Song-Chun},
+    booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2018}
+}</pre>
+                            </div>
+                        </div>
+
                         <!--------------- Intent-aware Multi-agent Reinforcement Learning --------------->
                         <div class="panel panel-default">
                             <!--<div class="panel-heading">-->
@@ -387,7 +471,7 @@
                                         <div align="justify" id="pub-abstract-icra2018intent" class="panel-collapse collapse">
                                             <hr>
                                             <h5>Abstract</h5>
-                                            This paper proposes an intent-aware multi-agent planning framework as well as a learning algorithm. Under this framework, an agent plans in the goal space to maximize the expected utility. The planning process takes the belief of other agents' intents into consideration. Instead of formulating the learning problem as a partially observable Markov decision process (POMDP), we propose a simple but effective linear function approximation of the utility function. It is based on the observation that for humans, other people's intents will pose an influence on our utility for a goal. The proposed framework has several major advantages: i) it is computationally feasible and guaranteed to converge. ii) It can easily integrate existing intent prediction and low-level planning algorithms. iii) It does not suffer from sparse feedbacks in the action space. We experiment our algorithm in a real-world problem that is non-episodic, and the number of goals can vary over time. Our algorithm is trained in a scene in which aerial robots and humans interact, and tested in a novel scene with a different environment. Experimental results show that our algorithm achieves the best performance and human-like behaviors emerge during the dynamic process.
+                                            This paper proposes an intent-aware multi-agent planning framework as well as a learning algorithm. Under this framework, an agent plans in the goal space to maximize the expected utility. The planning process takes the belief of other agents' intents into consideration. Instead of formulating the learning problem as a partially observable Markov decision process (POMDP), we propose a simple but effective linear function approximation of the utility function. It is based on the observation that for humans, other people's intents will pose an influence on our utility for a goal. The proposed framework has several major advantages: i) it is computationally feasible and guaranteed to converge. ii) It can easily integrate existing intent prediction and low-level planning algorithms. iii) It does not suffer from sparse feedbacks in the action space. We experiment our algorithm in a real-world problem that is non-episodic, and the number of agents and goals can vary over time. Our algorithm is trained in a scene in which aerial robots and humans interact, and tested in a novel scene with a different environment. Experimental results show that our algorithm achieves the best performance and human-like behaviors emerge during the dynamic process.
                                         </div>
                                     </li>
                                 </ul>
@@ -554,10 +638,11 @@
                                             src="publications/thumbnails/scenesynthesis17arxiv.gif" width="150" height="150"></a>
                                         <div class="media-body">
                                             <h4 class="media-heading">Configurable, Photorealistic Image Rendering and Ground Truth Synthesis by Sampling Stochastic Grammars Representing Indoor Scenes</h4>
-                                            <p>Chenfanfu Jiang*, Yixin Zhu*, <b>Siyuan Qi*</b>, Siyuan Huang*,
-                                                Jenny Lin, Xingwen Guo, Lap-Fai Yu, Demetri Terzopoulos, Song-Chun Zhu. <br> * equal contributors</p>
-                                            <p>Arxiv</p>
+                                            <p>Chenfanfu Jiang*, <b>Siyuan Qi*</b>, Yixin Zhu*, Siyuan Huang*,
+                                                Jenny Lin, Lap-Fai Yu, Demetri Terzopoulos, Song-Chun Zhu. <br> * equal contributors</p>
+                                            <p>Under review for IJCV </p>
 
+                                            <span class="label label-primary">Journal</span>&nbsp;
                                             <span class="label label-normal">Computer Vision</span>&nbsp;
                                             <span class="label label-normal">Computer Graphics</span>&nbsp;
                                         </div>
@@ -567,7 +652,7 @@
                                         <div align="justify" id="pub-abstract-scenesynthesis17arxiv" class="panel-collapse collapse">
                                             <hr>
                                             <h5>Abstract</h5>
-                                            We propose the configurable rendering of massive quantities of photorealistic images with ground truth for the purposes of training, benchmarking, and diagnosing computer vision models. In contrast to the conventional (crowd-sourced) manual labeling of ground truth for a relatively modest number of RGB-D images captured by Kinect-like sensors, we devise a non-trivial configurable pipeline of algorithms capable of generating a potentially infinite variety of indoor scenes using a stochastic grammar, specifically, one represented by an attributed spatial And-Or graph. We employ physics-based rendering to synthesize photorealistic RGB images while automatically synthesizing detailed, per-pixel ground truth data, including visible surface depth and normal, object identity and material information, as well as illumination. Our pipeline is configurable inasmuch as it enables the precise customization and control of important attributes of the generated scenes. We demonstrate that our generated scenes achieve a performance similar to the NYU v2 Dataset on pre-trained deep learning models. By modifying pipeline components in a controllable manner, we furthermore provide diagnostics on common scene understanding tasks; eg., depth and surface normal prediction, semantic segmentation, etc.
+                                            We propose a systematic learning-based approach to the generation of massive quantities of synthetic 3D scenes and numerous photorealistic 2D images thereof, with associated ground truth information, for the purposes of training, benchmarking, and diagnosing learning-based computer vision and robotics algorithms. In particular, we devise a learning-based pipeline of algorithms capable of automatically generating and rendering a potentially infinite variety of indoor scenes by using a stochastic grammar, represented as an attributed Spatial And-Or Graph, in conjunction with state-of-the-art physics-based rendering. Our pipeline is capable of synthesizing scene layouts with high diversity, and it is configurable in that it enables the precise customization and control of important attributes of the generated scenes. It renders photorealistic RGB images of the generated scenes while automatically synthesizing detailed, per-pixel ground truth data, including visible surface depth and normal, object identity, and material information (detailed to object parts), as well as environments (e.g., illumination and camera viewpoints). We demonstrate the value of our dataset, by improving performance in certain machine-learning-based scene understanding tasks--e.g., depth and surface normal prediction, semantic segmentation, reconstruction, etc.---and by providing benchmarks for and diagnostics of trained models by modifying object attributes and scene properties in a controllable manner.
                                         </div>
                                     </li>
                                 </ul>
@@ -611,7 +696,7 @@
                                                 Physical Judgments Across Virtual Gravity Fields.</h4>
                                             <p>Tian Ye*, <b>Siyuan Qi*</b>, James Kubricht, Yixin Zhu, Hongjing Lu,
                                                 Song-Chun Zhu. <br> * equal contributors</p>
-                                            <p>IEEE VR 2017, Los Angeles, California <br> Accepted to TVCG</p>
+                                            <p>IEEE VR 2017, Los Angeles, California, USA <br> Accepted to TVCG</p>
 
                                             <span class="label label-success">Oral</span>&nbsp;
                                             <span class="label label-primary">Journal</span>&nbsp;
@@ -722,7 +807,10 @@
                                 <div class="tab-pane fade active in" id="more-col-cross">
                                     <ul class="list-group">
                                         <li class="list-group-item">
-                                            <a target="_blank" href="http://web.cs.ucla.edu/~cffjiang/index.html">Dr. Chenfanfu Jiang</a> and
+                                            <a target="_blank" href="http://www.seas.upenn.edu/~cffjiang/">Dr. Chenfanfu Jiang</a> at
+                                            <a target="_blank" href="http://cg.cis.upenn.edu/">UPenn Computer Graphics Group</a>
+                                        </li>
+                                        <li class="list-group-item">
                                             <a target="_blank" href="http://web.cs.ucla.edu/~dt/">Prof. Demetri Terzopoulos</a> at
                                             <a target="_blank" href="http://www.magix.ucla.edu/">UCLA Computer Graphics & Vision Laboratory</a>
                                         </li>
