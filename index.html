@@ -158,12 +158,13 @@
                                                 <h4 class="events-heading">Two papers accepted at <a target="_blank" href="https://eccv2018.org/">ECCV 2018</a></h4>
                                                 <p>Learning Human-Object Interactions by Graph Parsing Neural Networks.</p>
                                                 <p>
-                                                    [<a target="_blank" >paper coming soon</a>]
+                                                    [<a target="_blank" href="publications/eccv2018gpnn/eccv2018gpnn.pdf">paper</a>]
                                                     <!--[<a target="_blank" href="https://github.com/SiyuanQi/intentMARL">code</a>]-->
                                                 </p>
-                                                <p>Monocular Scene Parsing and Reconstruction using 3D Holistic Scene Grammar.</p>
+                                                <p>Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image.</p>
                                                 <p>
-                                                    [<a target="_blank" >paper coming soon</a>]
+                                                    [<a target="_blank" href="publications/eccv2018scene/eccv2018scene.pdf">paper</a>]
+                                                    [<a target="_blank" href="publications/eccv2018scene/eccv2018scene_supplementary.pdf">supplementary</a>]
                                                 </p>
                                                 <p>
                                                     <span class="label label-primary">Conference</span>&nbsp;
@@ -207,6 +208,7 @@
                                                 <p>Configurable 3D Scene Synthesis and 2D Image Rendering with Per-Pixel Ground Truth Using Stochastic Grammars.</p>
                                                 <p>
                                                     [<a target="_blank" href="publications/ijcv2018synthesis/ijcv2018synthesis.pdf">paper</a>]
+                                                    [<a target="_blank" href="https://vimeo.com/211226594">demo</a>]
                                                 </p>
                                                 <p>
                                                     <span class="label label-primary">Journal</span>&nbsp;
@@ -477,7 +479,7 @@
                                             src="publications/thumbnails/eccv2018gpnn.png" width="150" height="150"></a>
                                         <div class="media-body">
                                             <h4 class="media-heading">Learning Human-Object Interactions by Graph Parsing Neural Networks</h4>
-                                            <p><b>Siyuan Qi</b>, Wenguan Wang, Baoxiong Jia, Jianbing Shen, Song-Chun Zhu.</p>
+                                            <p><b>Siyuan Qi*</b>, Wenguan Wang*, Baoxiong Jia, Jianbing Shen, Song-Chun Zhu.</p>
                                             <p>ECCV 2018, Munich, Germany</p>
 
                                             <span class="label label-primary">Conference</span>&nbsp;
@@ -489,23 +491,12 @@
                                         <div align="justify" id="pub-abstract-eccv2018gpnn" class="panel-collapse collapse">
                                             <hr>
                                             <h5>Abstract</h5>
-                                            This paper addresses the task of detecting and recognizing
-                                            human-object interactions (HOI) in both images and videos. We intro-
-                                            duce Graph Parsing Neural Network (GPNN), a framework that inte-
-                                            grates the structural information in HOI tasks and the end-to-end learn-
-                                            ing ability of neural networks. For a given scene, GPNN infers a parse
-                                            graph that includes i) the HOI graph structure represented by an adja-
-                                            cency matrix, and ii) the node labels. Within a message passing inference
-                                            framework, GPNN iteratively computes adjacency matrices that improve
-                                            message passing. In particular, four types of operations: link functions,
-                                            message functions, update functions, and readout functions, are designed
-                                            for parse graph inference and belief propagation. GPNN is differentiable
-                                            end-to-end with an explicit HOI representation. We extensively evaluate
-                                            our model on three HOI benchmarks: HICO-DET, V-COCO, and CAD-
-                                            120 datasets, for HOI detection in images and recognition from videos,
-                                            respectively. Experimental results verify that GPNN is scalable to large
-                                            datasets and applies to complex HOI problems in spatial-temporal set-
-                                            tings. Our approach significantly outperforms state-of-art methods.
+                                            This paper addresses the task of detecting and recognizing human-object interactions (HOI) in images and videos.
+                                            We introduce the Graph Parsing Neural Network (GPNN), a framework that incorporates structural knowledge while being differentiable end-to-end.
+                                            For a given scene, GPNN infers a parse graph that includes i) the HOI graph structure represented by an adjacency matrix, and ii) the node labels.
+                                            Within a message passing inference framework, GPNN iteratively computes the adjacency matrices and node labels.
+                                            We extensively evaluate our model on three HOI detection benchmarks on images and videos: HICO-DET, V-COCO, and CAD-120 datasets.
+                                            Our approach significantly outperforms state-of-art methods, verifying that GPNN is scalable to large datasets and applies to spatial-temporal settings.
                                         </div>
                                     </li>
                                 </ul>
@@ -519,10 +510,11 @@
                                             <i class="fa fa-pencil fa-lg"></i>
                                         </a>&nbsp;&nbsp;
 
-                                        <!--<a target="_blank" data-toggle="tooltip"-->
-                                           <!--title="Paper" href="publications/eccv2018gpnn/eccv2018gpnn.pdf">-->
-                                            <!--<i class="fa fa-file-pdf-o fa-lg"></i>-->
-                                        <!--</a>&nbsp;&nbsp-->
+                                        <a target="_blank" data-toggle="tooltip"
+                                           title="Paper" href="publications/eccv2018gpnn/eccv2018gpnn.pdf">
+                                            <i class="fa fa-file-pdf-o fa-lg"></i>
+                                        </a>
+                                        <!--&nbsp;&nbsp-->
 
                                         <!--<a target="_blank" data-toggle="tooltip"-->
                                            <!--title="Code" href="https://github.com/SiyuanQi/generalized-earley-parser">-->
@@ -555,7 +547,7 @@
                                             class="events-object img-thumbnail img-rounded"
                                             src="publications/thumbnails/eccv2018scene.png" width="150" height="150"></a>
                                         <div class="media-body">
-                                            <h4 class="media-heading">Monocular Scene Parsing and Reconstruction Using 3D Holistic Scene Grammar</h4>
+                                            <h4 class="media-heading">Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image</h4>
                                             <p>Siyuan Huang, <b>Siyuan Qi</b>, Yixin Zhu, Yinxue Xiao, Yuanlu Xu, Song-Chun Zhu.</p>
                                             <p>ECCV 2018, Munich, Germany</p>
 
@@ -568,24 +560,26 @@
                                         <div align="justify" id="pub-abstract-eccv2018scene" class="panel-collapse collapse">
                                             <hr>
                                             <h5>Abstract</h5>
-                                            We propose a computational framework to parse and reconstruct
-                                            the 3D configuration of an indoor scene from a single monocular image using
-                                            a stochastic grammar model. We introduce a Holistic Scene Grammar (HSG)
-                                            to represent the 3D scene structure, which characterizes a joint distribution
-                                            over the functional and geometric space of indoor scenes. The proposed HSG
-                                            captures three essential but often latent dimensions of the indoor scenes: i) la-
-                                            tent human context, describing the affordance and the functionality of a room
-                                            arrangement, ii) geometric constraints over the scene configurations, and iii)
-                                            physical constraints that guarantee physically plausible parsing and recon-
-                                            struction. We solve this parsing and reconstruction problem in an analysis-by-
-                                            synthesis fashion, seeking to minimize the differences between the input image
-                                            and the rendered image generated by our 3D representation, over the space of
-                                            depth, surface normal, and object segmentation map. The optimal configura-
-                                            tion (i.e., parse graph) is inferred using Markov chain Monte Carlo (MCMC),
-                                            which efficiently traverses through the non-differentiable solution space, jointly
-                                            optimizing object localization, 3D layout, and hidden human context. Exper-
-                                            imental results demonstrate that the proposed algorithm improves the gen-
-                                            eralization ability and significantly outperforms prior methods on 3D layout
+                                            We propose a computational framework to jointly parse a
+                                            single RGB image and reconstruct a holistic 3D configuration composed
+                                            by a set of CAD models using a stochastic grammar model. Specifically,
+                                            we introduce a Holistic Scene Grammar (HSG) to represent the 3D scene
+                                            structure, which characterizes a joint distribution over the functional and
+                                            geometric space of indoor scenes. The proposed HSG captures three essential
+                                            and often latent dimensions of the indoor scenes: i) latent human
+                                            context, describing the affordance and the functionality of a room arrangement,
+                                            ii) geometric constraints over the scene configurations, and
+                                            iii) physical constraints that guarantee physically plausible parsing and
+                                            reconstruction. We solve this joint parsing and reconstruction problem
+                                            in an analysis-by-synthesis fashion, seeking to minimize the differences
+                                            between the input image and the rendered images generated by our 3D
+                                            representation, over the space of depth, surface normal, and object segmentation
+                                            map. The optimal configuration, represented by a parse graph,
+                                            is inferred using Markov chain Monte Carlo (MCMC), which efficiently
+                                            traverses through the non-differentiable solution space, jointly optimizing
+                                            object localization, 3D layout, and hidden human context. Experimental
+                                            results demonstrate that the proposed algorithm improves the generalization
+                                            ability and significantly outperforms prior methods on 3D layout
                                             estimation, 3D object detection, and holistic scene understanding.
                                         </div>
                                     </li>
@@ -600,15 +594,15 @@
                                             <i class="fa fa-pencil fa-lg"></i>
                                         </a>&nbsp;&nbsp;
 
-                                        <!--<a target="_blank" data-toggle="tooltip"-->
-                                           <!--title="Paper" href="publications/eccv2018scene/eccv2018scene.pdf">-->
-                                            <!--<i class="fa fa-file-pdf-o fa-lg"></i>-->
-                                        <!--</a>&nbsp;&nbsp-->
+                                        <a target="_blank" data-toggle="tooltip"
+                                           title="Paper" href="publications/eccv2018scene/eccv2018scene.pdf">
+                                            <i class="fa fa-file-pdf-o fa-lg"></i>
+                                        </a>&nbsp;&nbsp
 
-                                        <!--<a target="_blank" data-toggle="tooltip"-->
-                                           <!--title="Supplementary" href="publications/eccv2018scene/eccv2018scene_supplementary.pdf">-->
-                                            <!--<i class="fa fa-file-pdf-o fa-lg"></i>-->
-                                        <!--</a>&nbsp;&nbsp-->
+                                        <a target="_blank" data-toggle="tooltip"
+                                           title="Supplementary" href="publications/eccv2018scene/eccv2018scene_supplementary.pdf">
+                                            <i class="fa fa-file-pdf-o fa-lg"></i>
+                                        </a>&nbsp;&nbsp
 
                                         <!--<a target="_blank" data-toggle="tooltip"-->
                                            <!--title="Code" href="https://github.com/SiyuanQi/generalized-earley-parser">-->
@@ -620,8 +614,8 @@
 
                             <div align="justify" id="pub-bibtex-eccv2018scene" class="panel-collapse collapse">
 <pre>
-@inproceedings{huang2018monocular,
-    title={Monocular Scene Parsing and Reconstruction Using 3D Holistic Scene Grammar},
+@inproceedings{huang2018holistic,
+    title={Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image},
     author={Huang, Siyuan and Qi, Siyuan and Zhu, Yixin and Xiao, Yinxue and Xu, Yuanlu and Zhu, Song-Chun},
     booktitle={European Conference on Computer Vision (ECCV)},
     year={2018}
