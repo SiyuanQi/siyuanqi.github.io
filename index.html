@@ -147,6 +147,29 @@
                             <dl>
                                 <dt data-toggle="collapse" href="#news-2018" style="cursor: pointer">2018</dt>
                                 <div id="news-2018" class="panel-collapse collapse in">
+                                    <dd class="pos-right clearfix">
+                                        <div class="circ"></div>
+                                        <div class="time">2018 Sep</div>
+                                        <div class="events">
+                                            <div class="pull-left">
+                                                <p class="events-object img-rounded"><i class="fa fa-file fa-lg"></i></p>
+                                            </div>
+                                            <div class="events-body">
+                                                <h4 class="events-heading">One paper accepted at <a target="_blank" href="https://nips.cc/Conferences/2018">NIPS 2018</a></h4>
+                                                <p>Cooperative Holistic 3D Scene Understanding from a Single RGB Image.</p>
+                                                <p>
+                                                    [<a target="_blank" href="publications/nips2018cooperative/nips2018cooperative.pdf">paper</a>]
+                                                    [<a target="_blank" href="publications/nips2018cooperative/nips2018cooperative_supplementary.pdf">supplementary</a>]
+                                                    <!--[<a target="_blank" href="https://github.com/SiyuanQi/generalized-earley-parser">code</a>]-->
+                                                </p>
+                                                <p>
+                                                    <span class="label label-primary">Conference</span>&nbsp;
+                                                    <span class="label label-normal">Machine Learning</span>&nbsp;
+                                                    <span class="label label-normal">Computer Vision</span>&nbsp;
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </dd>
                                     <dd class="pos-left clearfix">
                                         <div class="circ"></div>
                                         <div class="time">2018 Jul</div>
@@ -468,6 +491,91 @@
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-10">
+
+                        <!--------------- Cooperative Scene Parsing --------------->
+                        <div class="panel panel-default">
+                            <!--<div class="panel-heading">-->
+                            <!--<h3 class="panel-title">2016</h3>-->
+                            <!--</div>-->
+                            <div class="panel-body" data-toggle="collapse" href="#pub-abstract-nips2018cooperative" style="cursor: pointer">
+                                <ul class="media-list">
+                                    <li class="media">
+                                        <a class="pull-left" target="_blank" href=""><img
+                                            class="events-object img-thumbnail img-rounded"
+                                            src="publications/thumbnails/nips2018cooperative.png" width="150" height="150"></a>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Cooperative Holistic Scene Understanding: Unifying
+                                                3D Object, Layout, and Camera Pose Estimation</h4>
+                                            <p>Siyuan Huang, <b>Siyuan Qi</b>, Yinxue Xiao, Yixin Zhu, Ying Nian Wu, Song-Chun Zhu.</p>
+                                            <p>NIPS 2018, Montreal, Canada</p>
+
+                                            <span class="label label-primary">Conference</span>&nbsp;
+                                            <span class="label label-normal">Machine Learning</span>&nbsp;
+                                            <span class="label label-normal">Computer Vision</span>&nbsp;
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div align="justify" id="pub-abstract-nips2018cooperative" class="panel-collapse collapse">
+                                            <hr>
+                                            <h5>Abstract</h5>
+                                            Holistic 3D indoor scene understanding refers to jointly recovering the i) object
+                                            bounding boxes, ii) room layout, and iii) camera pose, all in 3D. The existing
+                                            methods either are ineffective or only tackle the problem partially. In this paper,
+                                            we propose an end-to-end model that simultaneously solves all three tasks in realtime
+                                            given only a single RGB image. The essence of the proposed method is to
+                                            improve the prediction by i) parametrizing the targets (e.g., 3D boxes) instead of
+                                            directly estimating the targets, and ii) cooperative training across different modules
+                                            in contrast to training these modules individually. Specifically, we parametrize
+                                            the 3D object bounding boxes by the predictions from several modules, i.e., 3D
+                                            camera pose and object attributes. The proposed method provides two major
+                                            advantages: i) The parametrization helps maintain the consistency between the
+                                            2D image and the 3D world, thus largely reducing the prediction variances in
+                                            3D coordinates. ii) Constraints can be imposed on the parametrization to train
+                                            different modules simultaneously. We call these constraints "cooperative losses" as
+                                            they enable the joint training and inference. We employ three cooperative losses
+                                            for 3D bounding boxes, 2D projections, and physical constraints to estimate a
+                                            geometrically consistent and physically plausible 3D scene. Experiments on the
+                                            SUN RGB-D dataset shows that the proposed method significantly outperforms
+                                            prior approaches on 3D object detection, 3D layout estimation, 3D camera pose
+                                            estimation, and holistic scene understanding.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <ul class="list-group">
+                                <li class="list-group-item">&nbsp;
+                                    <span class="pull-right">
+                                        <a target="_blank" data-toggle="collapse"
+                                           title="bibtex" href="#pub-bibtex-nips2018cooperative">
+                                            <i class="fa fa-pencil fa-lg"></i>
+                                        </a>&nbsp;&nbsp;
+
+                                        <a target="_blank" data-toggle="tooltip"
+                                           title="Paper" href="publications/nips2018cooperative/nips2018cooperative.pdf">
+                                            <i class="fa fa-file-pdf-o fa-lg"></i>
+                                        </a>&nbsp;&nbsp
+
+                                        <a target="_blank" data-toggle="tooltip"
+                                           title="Supplementary" href="publications/nips2018cooperative/nips2018cooperative_supplementary.pdf">
+                                            <i class="fa fa-file-pdf-o fa-lg"></i>
+                                        </a>&nbsp;&nbsp
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <div align="justify" id="pub-bibtex-nips2018cooperative" class="panel-collapse collapse">
+<pre>
+@inproceedings{huang2018cooperative,
+    title={Cooperative Holistic Scene Understanding: Unifying
+3D Object, Layout, and Camera Pose Estimation},
+    author={Huang, Siyuan and Qi, Siyuan and Xiao, Yinxue and Zhu, Yixin and Wu, Ying Nian and Zhu, Song-Chun},
+    booktitle={Conference on Neural Information Processing Systems (NIPS)},
+    year={2018}
+}</pre>
+                            </div>
+                        </div>
 
                         <!--------------- Graph Parsing Neural Network --------------->
                         <div class="panel panel-default">
